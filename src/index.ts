@@ -43,6 +43,16 @@ export { default as Table, type TableColumn, type TableRow } from "./components/
 export { default as Tabs } from "./components/ui/tabs";
 export { default as Accordion } from "./components/ui/accordion";
 
+// ===== Notification Components =====
+export {
+  default as NotificationList,
+  NotificationItem,
+  NotificationBell,
+  useNotifications,
+  type NotificationType,
+  type NotificationItem as NotificationItemType,
+} from "./components/ui/notification";
+
 // ===== Utilities =====
 export { cn } from "./lib/utils";
 export { platformSpecificStyles } from "./lib/utils";
